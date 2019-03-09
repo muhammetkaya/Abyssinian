@@ -1,0 +1,17 @@
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.runtimeconfig.json
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.runtimeconfig.dev.json
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.dll
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.dll
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.csprojAssemblyReference.cache
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.RazorAssemblyInfo.cache
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.RazorAssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.RazorTargetAssemblyInfo.cache
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.csproj.CopyComplete
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.dll
+C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.pdb

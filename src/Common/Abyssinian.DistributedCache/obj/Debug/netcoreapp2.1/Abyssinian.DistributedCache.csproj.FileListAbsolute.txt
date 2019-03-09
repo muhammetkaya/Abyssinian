@@ -1,0 +1,9 @@
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\bin\Debug\netcoreapp2.1\Abyssinian.DistributedCache.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\bin\Debug\netcoreapp2.1\Abyssinian.DistributedCache.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\bin\Debug\netcoreapp2.1\Abyssinian.DistributedCache.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.csprojAssemblyReference.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DistributedCache\obj\Debug\netcoreapp2.1\Abyssinian.DistributedCache.pdb
