@@ -12642,8 +12642,8 @@
     },
     "Abyssinian.Hosting/1.0.0": {
       "type": "project",
-      "path": "../../../Abyssinian.Hosting/Abyssinian.Hosting.csproj",
-      "msbuildProject": "../../../Abyssinian.Hosting/Abyssinian.Hosting.csproj"
+      "path": "../../Common/Abyssinian.Hosting/Abyssinian.Hosting.csproj",
+      "msbuildProject": "../../Common/Abyssinian.Hosting/Abyssinian.Hosting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12662,11 +12662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\Abyssinian.Services.Phyla.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\Abyssinian.Services.Phyla.csproj",
       "projectName": "Abyssinian.Services.Phyla",
-      "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\Abyssinian.Services.Phyla.csproj",
+      "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\Abyssinian.Services.Phyla.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Services\\Abyssinian.Services.Phyla\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12685,8 +12685,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\muham\\source\\repos\\Abyssinian\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj": {
-              "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj"
+            "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj": {
+              "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj"
             }
           }
         }

@@ -5386,11 +5386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\Abyssinian.DAL.MongoDBAdapter.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\Abyssinian.DAL.MongoDBAdapter.csproj",
       "projectName": "Abyssinian.DAL.MongoDBAdapter",
-      "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\Abyssinian.DAL.MongoDBAdapter.csproj",
+      "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\Abyssinian.DAL.MongoDBAdapter.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.DAL.MongoDBAdapter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5409,8 +5409,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.DAL\\Abyssinian.DAL.csproj": {
-              "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.DAL\\Abyssinian.DAL.csproj"
+            "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.DAL\\Abyssinian.DAL.csproj": {
+              "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.DAL\\Abyssinian.DAL.csproj"
             }
           }
         }

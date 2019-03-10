@@ -7,3 +7,6 @@ C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\obj\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.AssemblyInfoInputs.cache
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\obj\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.AssemblyInfo.cs
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\obj\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.csproj.CopyComplete
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\bin\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\obj\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.dll
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.DAL.MongoDBAdapter\obj\Debug\netcoreapp2.1\Abyssinian.DAL.MongoDBAdapter.pdb

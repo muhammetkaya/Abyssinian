@@ -1,0 +1,8 @@
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.pdb

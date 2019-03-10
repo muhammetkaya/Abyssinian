@@ -1,7 +1,6 @@
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\bin\Debug\netcoreapp2.1\Abyssinian.DAL.deps.json
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\bin\Debug\netcoreapp2.1\Abyssinian.DAL.dll
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\bin\Debug\netcoreapp2.1\Abyssinian.DAL.pdb
-C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.csprojAssemblyReference.cache
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.csproj.CoreCompileInputs.cache
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.AssemblyInfoInputs.cache
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.AssemblyInfo.cs

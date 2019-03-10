@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Abyssinian.Hosting\Abyssinian.Hosting.csproj" />
+    <ProjectReference Include="..\..\Common\Abyssinian.Hosting\Abyssinian.Hosting.csproj" />
   </ItemGroup>
 
 </Project>

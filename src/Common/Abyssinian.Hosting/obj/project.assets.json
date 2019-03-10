@@ -5290,11 +5290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj",
       "projectName": "Abyssinian.Hosting",
-      "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj",
+      "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Hosting\\Abyssinian.Hosting.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\Abyssinian.Hosting\\obj\\",
+      "outputPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Hosting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
