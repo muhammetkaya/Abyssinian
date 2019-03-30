@@ -15,3 +15,7 @@ C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\ob
 C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.csproj.CopyComplete
 C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.dll
 C:\Users\muham\source\repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\obj\Debug\netcoreapp2.1\Abyssinian.Services.Phyla.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.dll
+C:\Users\muham\Source\Repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\Source\Repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Services\Abyssinian.Services.Phyla\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb

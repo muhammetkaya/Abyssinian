@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.0.0-RC2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abyssinian.Messaging\Abyssinian.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>

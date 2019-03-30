@@ -6,3 +6,9 @@ C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\n
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Hosting.pdb
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.dll
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.csprojAssemblyReference.cache
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.dll
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb
+C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.Hosting\obj\Debug\netcoreapp2.1\Abyssinian.Hosting.csproj.CopyComplete

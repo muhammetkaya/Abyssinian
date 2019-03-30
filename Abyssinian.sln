@@ -15,7 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abyssinian.Services.Phyla",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abyssinian.DAL.MongoDBAdapter", "src\Common\Abyssinian.DAL.MongoDBAdapter\Abyssinian.DAL.MongoDBAdapter.csproj", "{9C33AC61-3733-4BFE-BADD-1785BB4944EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abyssinian.Hosting", "src\Common\Abyssinian.Hosting\Abyssinian.Hosting.csproj", "{5451C2D5-23F4-401E-AA99-2C790FB84D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abyssinian.Hosting", "src\Common\Abyssinian.Hosting\Abyssinian.Hosting.csproj", "{5451C2D5-23F4-401E-AA99-2C790FB84D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abyssinian.Messaging", "src\Common\Abyssinian.Messaging\Abyssinian.Messaging.csproj", "{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abyssinian.Messaging.RabbitMQ", "src\Common\Abyssinian.Messaging.RabbitMQ\Abyssinian.Messaging.RabbitMQ.csproj", "{E0389477-6C90-4DF2-BEE0-2D2B743E602C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abyssinian.Messaging.Kafka", "src\Common\Abyssinian.Messaging.Kafka\Abyssinian.Messaging.Kafka.csproj", "{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abyssinian.Utilities", "src\Common\Abyssinian.Utilities\Abyssinian.Utilities.csproj", "{A840B43C-DA3B-4EB6-BC40-063082D55D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,22 @@ Global
 		{5451C2D5-23F4-401E-AA99-2C790FB84D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5451C2D5-23F4-401E-AA99-2C790FB84D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5451C2D5-23F4-401E-AA99-2C790FB84D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0389477-6C90-4DF2-BEE0-2D2B743E602C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0389477-6C90-4DF2-BEE0-2D2B743E602C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0389477-6C90-4DF2-BEE0-2D2B743E602C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0389477-6C90-4DF2-BEE0-2D2B743E602C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A840B43C-DA3B-4EB6-BC40-063082D55D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A840B43C-DA3B-4EB6-BC40-063082D55D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A840B43C-DA3B-4EB6-BC40-063082D55D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A840B43C-DA3B-4EB6-BC40-063082D55D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +77,10 @@ Global
 		{66F37B4F-B7FD-4543-B785-F8BB4C38F7BC} = {F3B6A0AD-F988-46FF-9650-C22C06CE92F4}
 		{9C33AC61-3733-4BFE-BADD-1785BB4944EE} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
 		{5451C2D5-23F4-401E-AA99-2C790FB84D96} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
+		{F3C0084C-251A-4E4A-8A93-9A3960C7EFFA} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
+		{E0389477-6C90-4DF2-BEE0-2D2B743E602C} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
+		{304F93A9-C98B-4659-A5F4-CEDAC0C6B5E7} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
+		{A840B43C-DA3B-4EB6-BC40-063082D55D4A} = {1CB349B0-B8EE-47B5-A8D5-B09C701629BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06111EF2-1E52-4F43-B089-91760398706B}

@@ -1,0 +1,14 @@
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.csprojAssemblyReference.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.csproj.CopyComplete
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.Kafka.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.Kafka\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb

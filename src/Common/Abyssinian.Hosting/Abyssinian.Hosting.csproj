@@ -8,4 +8,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Abyssinian.Messaging\Abyssinian.Messaging.csproj" />
+  </ItemGroup>
+
 </Project>

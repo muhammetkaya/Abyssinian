@@ -1,0 +1,14 @@
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Messaging.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.csprojAssemblyReference.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.csproj.CopyComplete
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Messaging.RabbitMQ\obj\Debug\netcoreapp2.1\Abyssinian.Messaging.RabbitMQ.pdb

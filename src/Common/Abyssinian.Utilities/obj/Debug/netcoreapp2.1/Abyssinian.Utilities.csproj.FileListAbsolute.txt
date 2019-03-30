@@ -1,0 +1,9 @@
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.deps.json
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.AssemblyInfo.cs
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\bin\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.csprojAssemblyReference.cache
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.dll
+C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.Utilities\obj\Debug\netcoreapp2.1\Abyssinian.Utilities.pdb
