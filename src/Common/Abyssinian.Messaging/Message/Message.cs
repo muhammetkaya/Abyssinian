@@ -12,5 +12,10 @@ namespace Abyssinian.Messaging
         {
             
         }
+
+        public override string ToString()
+        {
+            return $"{ProducerId} - {To} - {Content}";
+        }
     }
 }

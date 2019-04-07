@@ -5,8 +5,11 @@ using System.Text;
 
 namespace Abyssinian.Messaging.Kafka.Settings
 {
-    public class KafkaProducerSettings : ProducerSettings
+    public class KafkaMessageSettings : MessageClientSettings
     {
         public string BrokerList { get; set; }
+        public string GroupId { get; internal set; }
+        public List<string> Topics { get; set; }
+        public string ServiceName { get; set; }
     }
 }

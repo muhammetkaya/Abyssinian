@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Abyssinian.Messaging.Settings
 {
-    public class ProducerSettings : SettingsBase
+    public class MessageClientSettings : SettingsBase
     {
+        public Guid ProducerId { get; set; }
     }
 }

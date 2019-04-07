@@ -6,4 +6,3 @@ C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netco
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.AssemblyInfo.cs
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.dll
 C:\Users\muham\source\repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.pdb
-C:\Users\muham\Source\Repos\Abyssinian\src\Common\Abyssinian.DAL\obj\Debug\netcoreapp2.1\Abyssinian.DAL.csprojAssemblyReference.cache

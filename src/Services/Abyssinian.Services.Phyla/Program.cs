@@ -17,8 +17,19 @@ namespace Abyssinian.Services.Phyla
             CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args)
+        {
+            var currentDirectory = Directory.GetCurrentDirectory();
+            var _configuration = new ConfigurationBuilder()
+                .AddJsonFile($"{currentDirectory}\\appSettings.json")
+                .Build();
+
+            string _url = _configuration.GetValue<string>("Url");
+            int _port = _configuration.GetValue<Int32>("Port");
+
+            return WebHost.CreateDefaultBuilder(args)
+                .UseUrls($"{_url}:{_port}")
                 .UseStartup<Startup>();
+        }
     }
 }

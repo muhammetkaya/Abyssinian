@@ -17,17 +17,28 @@ namespace Abyssinian.Messaging.Kafka
         #region ..Fields..
 
         ProducerConfig fProducerConfig;
+        KafkaMessageSettings _kafkaSettings;
+        public Func<Message, CancellationToken, bool> ReceiveMessage { get; set; }
 
         #endregion
 
         #region ..Privates..
 
-        private void Internal_Consume(KafkaConsumerSettings consumeSettings)
+        private KafkaMessageSettings GetDefaultSettings()
+        {
+            return null;
+        }
+
+        #endregion
+
+        #region ..IMessageClient Implementations..
+
+        public void Consume()
         {
             var config = new ConsumerConfig
             {
-                BootstrapServers = consumeSettings.BrokerList,
-                GroupId = consumeSettings.GroupId, //"csharp-consumer",
+                BootstrapServers = _kafkaSettings.BrokerList,
+                GroupId = _kafkaSettings.GroupId, //"csharp-consumer",
                 EnableAutoCommit = false,
                 StatisticsIntervalMs = 5000,
                 SessionTimeoutMs = 6000,
@@ -60,7 +71,7 @@ namespace Abyssinian.Messaging.Kafka
                 })
                 .Build())
             {
-                consumer.Subscribe(consumeSettings.Topics);
+                consumer.Subscribe(_kafkaSettings.Topics);
 
                 try
                 {
@@ -68,7 +79,7 @@ namespace Abyssinian.Messaging.Kafka
                     {
                         try
                         {
-                            var consumeResult = consumer.Consume(consumeSettings.CancellationToken);
+                            var consumeResult = consumer.Consume(_kafkaSettings.CancellationToken);
 
                             if (consumeResult.IsPartitionEOF)
                             {
@@ -78,8 +89,10 @@ namespace Abyssinian.Messaging.Kafka
                                 continue;
                             }
                             Console.WriteLine($"Received message at {consumeResult.TopicPartitionOffset}: {consumeResult.Value}");
-                            var consumed = consumeSettings.Consume(consumeResult.Value.ConvertToMessage(), consumeSettings.CancellationToken);
-                            if (consumed && consumeResult.Offset % commitPeriod == 0)
+
+                            var consumed = ReceiveMessage?.Invoke(consumeResult.Value.ConvertToMessage(), _kafkaSettings.CancellationToken);
+                            if ((consumed.HasValue && consumed.Value) &&
+                                consumeResult.Offset % commitPeriod == 0)
                             {
                                 // The Commit method sends a "commit offsets" request to the Kafka
                                 // cluster and synchronously waits for the response. This is very
@@ -111,13 +124,17 @@ namespace Abyssinian.Messaging.Kafka
             }
         }
 
-        private async Task Internal_Produce(KafkaMessage message)
+        public async Task Produce(Message message)
         {
-            if (fProducerConfig == null) InitializeProducer(null);
+            if (!(message is KafkaMessage))
+                throw new Exception("Settings should be KafkaSettings");
+
+            var kafkaMessage = message as KafkaMessage;
+
             using (var producer = new ProducerBuilder<string, string>(fProducerConfig).Build())
             {
                 Console.WriteLine("\n-----------------------------------------------------------------------");
-                Console.WriteLine($"Producer {producer.Name} producing on topic {message.Topic}.");
+                Console.WriteLine($"Producer {producer.Name} producing on topic {kafkaMessage.Topic}.");
                 Console.WriteLine("-----------------------------------------------------------------------");
                 Console.WriteLine("To create a kafka message with UTF-8 encoded key and value:");
                 Console.WriteLine("> key value<Enter>");
@@ -134,43 +151,13 @@ namespace Abyssinian.Messaging.Kafka
 
                 while (!cancelled)
                 {
-                    Console.Write("> ");
-
-                    string text;
-                    try
-                    {
-                        text = Console.ReadLine();
-                    }
-                    catch (IOException)
-                    {
-                        // IO exception is thrown when ConsoleCancelEventArgs.Cancel == true.
-                        break;
-                    }
-                    if (text == null)
-                    {
-                        // Console returned null before 
-                        // the CancelKeyPress was treated
-                        break;
-                    }
-
-                    string key = null;
-                    string val = text;
-
-                    // split line if both key and value specified.
-                    int index = text.IndexOf(" ");
-                    if (index != -1)
-                    {
-                        key = text.Substring(0, index);
-                        val = text.Substring(index + 1);
-                    }
-
                     try
                     {
                         // Note: Awaiting the asynchronous produce request below prevents flow of execution
                         // from proceeding until the acknowledgement from the broker is received (at the 
                         // expense of low throughput).
                         var deliveryReport = await producer.ProduceAsync(
-                            message.Topic, new Message<string, string> { Key = key, Value = val });
+                            kafkaMessage.Topic, new Message<string, string> { Key = message.ProducerId.ToString(), Value = message.Content });
 
                         Console.WriteLine($"delivered to: {deliveryReport.TopicPartitionOffset}");
                     }
@@ -186,45 +173,25 @@ namespace Abyssinian.Messaging.Kafka
             }
         }
 
-        private void Internal_InitializeProducer(KafkaProducerSettings producerSettings)
+        public Task SendMessage(Message message)
         {
-            var config = new ProducerConfig { BootstrapServers = producerSettings.BrokerList };
+            KafkaMessage m = new KafkaMessage(_kafkaSettings.ProducerId)
+            {
+                Content = message.Content,
+                Topic = message.To
+            };
+            return Produce(m);
         }
 
-        private KafkaProducerSettings GetDefaultSettings()
-        {
-            return null;
-        }
-
-        #endregion
-
-        #region ..IMessageClient Implementations..
-
-        public void Consume(ConsumeSettings consumeSettings)
-        {
-            if (!(consumeSettings is KafkaConsumerSettings))
-                throw new Exception("Settings should be KafkaSettings");
-
-            Internal_Consume(consumeSettings as KafkaConsumerSettings);
-        }
-
-        public async Task Produce(Message message)
-        {
-            if (!(message is KafkaMessage))
-                throw new Exception("Settings should be KafkaSettings");
-
-            await Internal_Produce(message as KafkaMessage);
-        }
-
-        public void InitializeProducer(ProducerSettings producerSettings)
+        public void InitializeMessageClient(MessageClientSettings producerSettings)
         {
             if (producerSettings == null)
                 producerSettings = GetDefaultSettings();
-            else if (!(producerSettings is KafkaProducerSettings))
+            else if (!(producerSettings is KafkaMessageSettings))
                 throw new Exception("Settings should be KafkaSettings");
 
-            Internal_InitializeProducer(producerSettings as KafkaProducerSettings);
-
+            _kafkaSettings = producerSettings as KafkaMessageSettings;
+            fProducerConfig = new ProducerConfig { BootstrapServers = _kafkaSettings.BrokerList };
         }
 
         #endregion

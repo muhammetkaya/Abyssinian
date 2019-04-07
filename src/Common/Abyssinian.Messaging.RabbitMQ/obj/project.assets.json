@@ -779,11 +779,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\Abyssinian.Messaging.RabbitMQ.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\Abyssinian.Messaging.RabbitMQ.csproj",
       "projectName": "Abyssinian.Messaging.RabbitMQ",
-      "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\Abyssinian.Messaging.RabbitMQ.csproj",
+      "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\Abyssinian.Messaging.RabbitMQ.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging.RabbitMQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -802,8 +802,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj": {
-              "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj"
+            "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj": {
+              "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj"
             }
           }
         }

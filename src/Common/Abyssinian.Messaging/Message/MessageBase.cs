@@ -6,12 +6,20 @@ namespace Abyssinian.Messaging
 {
     public class MessageBase
     {
-        public Guid ProducerId { get; set; }
-        public Guid ConsumerId { get; set; }
+        private readonly Guid _producerId;
+        public Guid ProducerId
+        {
+            get
+            {
+                return _producerId;
+            }
+        }
+
+        public string To { get; set; }
 
         public MessageBase(Guid producerId)
         {
-            ProducerId = producerId;
+            _producerId = producerId;
         }
     }
 }

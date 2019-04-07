@@ -7,14 +7,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Abyssinian.Hosting.HostingStartup;
+using Abyssinian.Services.Phyla.Contracts;
 
 namespace Abyssinian.Services.Phyla
 {
-    public class Startup: Hosting.HostingStartup.StartupBase
+    public class Startup : Hosting.HostingStartup.StartupBase
     {
-        public override void InitializeServices(IServiceCollection services)
+        public override void InitializeCustomServices(IServiceCollection services)
         {
-
+            services.AddSingleton<IPhylaManager, PhylaManager>();
         }
     }
 }

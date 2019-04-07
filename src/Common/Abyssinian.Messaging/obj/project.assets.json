@@ -761,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj",
       "projectName": "Abyssinian.Messaging",
-      "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj",
+      "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\Abyssinian.Messaging.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\obj\\",
+      "outputPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -784,8 +784,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Utilities\\Abyssinian.Utilities.csproj": {
-              "projectPath": "C:\\Users\\muham\\source\\repos\\Abyssinian\\src\\Common\\Abyssinian.Utilities\\Abyssinian.Utilities.csproj"
+            "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Utilities\\Abyssinian.Utilities.csproj": {
+              "projectPath": "C:\\Users\\muham\\Source\\Repos\\Abyssinian\\src\\Common\\Abyssinian.Utilities\\Abyssinian.Utilities.csproj"
             }
           }
         }

@@ -2,14 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Abyssinian.Messaging.Interaces
 {
     public interface IMessageClient
     {
-        void InitializeProducer(ProducerSettings producerSettings);
-        Task Produce(Message message);
-        void Consume(ConsumeSettings consumeSettings);
+        Func<Message, CancellationToken, bool> ReceiveMessage { get; set; }
+        Task SendMessage(Message message);
+        void InitializeMessageClient(MessageClientSettings producerSettings);
     }
 }
